@@ -46,3 +46,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+# Building with opengapps
+GAPPS_VARIANT := nano
