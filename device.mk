@@ -49,3 +49,4 @@ $(call inherit-product, device/oneplus/msm8998-common/common.mk)
 
 # Building with opengapps
 GAPPS_VARIANT := nano
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
